@@ -18,13 +18,13 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col gap-16 items-center justify-center p-4 md:container mx-auto md:h-screen md:flex-row">
+    <main className="flex flex-col gap-16 items-center justify-center p-4 mx-auto lg:container lg:h-screen lg:flex-row">
       <div className="space-y-2">
         <p className="text-primary font-semibold">Upgrade</p>
         <h1 className="font-semibold text-xl">Pricing plans that scale</h1>
         <p className="text-muted-foreground">Simple, transparent pricing that grows with you. Try any plan free for 30 days.</p>
       </div>
-      <div className="flex flex-col items-center gap-8 md:flex-row">
+      <div className="flex flex-col items-center gap-8 lg:flex-row">
         <PlanCard
           title="Basic plan"
           price="$10/month"
